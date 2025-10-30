@@ -1,0 +1,27 @@
+{
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/canonical/cloud-init/main/cloudinit/config/schemas/versions.schema.cloud-config.json": [
+      "**/*.user-data"
+    ]
+  },
+  "files.associations": {
+    "*.meta-data": "yaml",
+    "*.user-data": "yaml",
+    "99_wsl.cfg": "yaml",
+    ".wslconfig": "ini",
+    ".wslgconfig": "ini",
+    "wsl.conf": "ini",
+    "wsl-distribution.conf": "ini",
+  },
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  }
+}
