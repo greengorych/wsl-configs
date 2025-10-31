@@ -1,0 +1,380 @@
+# WSL 2 global configuration file (.wslconfig)
+# Location: C:\Users\<UserName>\.wslconfig
+
+[general]
+
+# Absolute Windows path to the WSL distributions install folder
+# Dependencies: None
+# Default: C:\Users\<UserName>\AppData\Local\wsl
+# Example: distributionInstallPath=C:\\Path\\To\\wsl\\Distribution\Install\\Folder
+# distributionInstallPath=
+
+# Duration the WSL instances remains running after going idle
+# Dependencies: None
+# Default: 15000 (15 seconds)
+# Values:
+# - -1: Never shut down the instance automatically
+# -  0: Shut down immediately after all processes exit
+# -  Positive integer: Shut down after the specified idle time (in milliseconds)
+instanceIdleTimeout=15000
+
+[wsl2]
+
+# Duration before shutting down the WSL virtual machine when idle
+# Dependencies: None
+# Default: 60000 (60 seconds)
+# Values:
+# - -1: Never shut down automatically
+# -  0: Shut down immediately after all WSL instances have exited
+# -  Positive integer: Shut down after the specified idle time (in milliseconds)
+vmIdleTimeout=60000
+
+# Maximum time WSL waits for a distribution to start before failing
+# Dependencies: None
+# Default: 60000 (60 seconds)
+# Values:
+# - Positive integer (in milliseconds)
+distributionStartTimeout=60000
+
+# Allows support nested virtualization
+# Dependencies:
+# - Supported only on AMD64 with Windows 11+
+# - Doesn't work on ARM64, or on any architecture with Windows <11
+# Default: true on AMD64 with Windows 11+, false on ARM64, or on any architecture with Windows <11
+# Values:
+# - true
+# - false
+nestedVirtualization=true
+
+# Makes hardware performance counters available in WSL instances
+# Dependencies:
+# - Supported only on AMD64/x64
+# - Not available on ARM64
+# Default: true on AMD64, false on ARM64
+# Values:
+# - true
+# - false
+hardwarePerformanceCounters=true
+
+# Maximum number of logical CPU cores made available to all instances
+# Dependencies: None
+# Default: 0: all available logical processors
+# Example: processors=2
+processors=0
+
+# Maximum total amount of memory available to all instances
+# Dependencies: None
+# Default: 0: 50% of available physical RAM
+# Example: memory=4GB
+memory=0
+
+# Enables GPU support
+# Dependencies: None
+# Default: true
+# Values:
+# - true
+# - false
+gpuSupport=true
+
+# Default virtual disk size for newly created WSL instances
+# Dependencies:
+# - Dynamically allocated
+# Default: 1TB
+# Example: defaultVhdSize=20GB
+defaultVhdSize=1TB
+
+# Size of the swap file used by WSL all instances
+# Dependencies:
+# - The default SWAP size is 25% of the total system RAM, or 50% of the RAM specified by the wsl2.memory setting
+# Default: 25% of the memory allocated to WSL
+# Values:
+# - 0: Disable swap entirely
+# - Positive integer with unit suffix (e.g., 8GB, 1024MB)
+# swap=
+
+# Absolute Windows path to the swap file
+# Dependencies:
+# - Ignored if wsl2.swap=0
+# Notes:
+# - Use `wslinfo --vm-id` to get the <WSL VM ID>
+# Default: %USERPROFILE%\AppData\Local\Temp\<WSL VM ID>\swap.vhdx
+# swapFile=
+
+# Type of network mode used by WSL
+# Dependencies:
+# - Bridged mode requires Hyper-V to be installed
+# - Bridged mode requires a manually created external virtual switch connected to a physical network adapter
+# - Other modes (NAT, Mirrored, VirtioProxy) do not require Hyper-V or external switches
+# Default: NAT
+# Values:
+# - None
+# - NAT
+# - Mirrored
+# - Bridged
+# - VirtioProxy
+networkingMode=NAT
+
+# Name of the Hyper-V virtual switch used by the WSL
+# Dependencies:
+# - Requires only when wsl2.networkingMode=Bridged
+# - Requires Hyper-V
+# - Requires a manually created external virtual switch connected to a physical network adapter
+# Default: Default Switch (if not specified)
+# Example: vmSwitch=MyCustomSwitch
+# vmSwitch=
+
+# MAC address assigned to the network adapter
+# Dependencies:
+# - Requires wsl2.networkingMode=bridged
+# Default: Persistent MAC address automatically assigned
+# Example: macAddress=00:15:5D:00:01:02
+# macAddress=
+
+# DHCP setting for the network adapter
+# Dependencies:
+# - Requires wsl2.networkingMode=bridged
+# Default: true
+# Values:
+# - true
+# - false
+dhcp=true
+
+# Timeout in milliseconds when waiting for DHCP response
+# Dependencies:
+# - Requires wsl2.dhcp=true
+# Default: 5000
+# Values:
+# - Positive integer (in milliseconds)
+dhcpTimeout=5000
+
+# Controls whether IPv6 is available on the network interface
+# Dependencies:
+# - Requires wsl2.networkingMode=bridged
+# Default: false
+# Values:
+# - true
+# - false
+ipv6=false
+
+# Allows localhost ports to be shared between Windows and WSL instances
+# Dependencies:
+# - Has no effect when wsl2.networkingMode=mirrored
+# Default: true
+# Values:
+# - true
+# - false
+localhostForwarding=true
+
+# Uses Windows DNS resolver for DNS queries from WSL
+# Dependencies: None
+# Default: true
+# Values:
+# - true
+# - false
+dnsProxy=true
+
+# Sends DNS queries through Windows stack instead of resolving inside WSL instances
+# Dependencies:
+# - Requires wsl2.dnsProxy=true
+# - Requires wsl2.networkingMode=nat or wsl2.networkingMode=mirrored
+# Default: true
+# Values:
+# - true
+# - false
+dnsTunneling=true
+
+# Determines whether Windows Firewall and Hyper-V filters apply
+# Dependencies: None
+# Default: true
+# Values:
+# - true
+# - false
+firewall=true
+
+# Inherits system-wide Windows proxy settings
+# Dependencies: None
+# Default: true
+# Values:
+# - true
+# - false
+autoProxy=true
+
+# Absolute Windows path to a custom Linux kernel
+# Dependencies: None
+# Default: Built-in Microsoft kernel
+# Example: kernel=C:\\Path\\To\\CustomKernel
+# kernel=
+
+# Additional parameters to pass to the Linux kernel during boot
+# Dependencies: None
+# Default: Not set
+# Example: kernelCommandLine=quiet splash
+# kernelCommandLine=
+
+# Maximum time to wait for the Linux kernel to boot
+# Dependencies: None
+# Default: 30000 (30 seconds)
+kernelBootTimeout=30000
+
+# Absolute Windows path to a VHD containing kernel modules
+# Dependencies: None
+# Default: Not set
+# Example: kernelModules=C:\\Path\\To\\Modules.vhdx
+# kernelModules=
+
+# List of Linux kernel modules being loaded
+# Dependencies: None
+# Default: Not set
+# Example: loadKernelModules=dummy
+# loadKernelModules=
+
+# Enables loading of default Linux kernel modules: tun, ip_tables, br_netfilter
+# Dependencies:
+#  - If the kernel is compiled with modules, then can loadDefaultKernelModules=false
+# Default: true
+# Values:
+# - true
+# - false
+loadDefaultKernelModules=true
+
+# Enables kernel debug port
+# Dependencies: None
+# Default: 0
+# - 0: Disable
+# - 1: Enable
+kernelDebugPort=0
+
+# Maximum time in milliseconds to wait for device mount operations
+# Dependencies: None
+# Default: 5000 (5 seconds)
+mountDeviceTimeout=5000
+
+# Enables support for graphical Linux apps (WSLg)
+# Dependencies: None
+# Default: true
+# Values:
+# - true
+# - false
+guiApplications=true
+
+# Specifies a WSLg distribution
+# Dependencies:
+# - Requires wsl2.guiApplications=true
+# Default: C:\Program Files\WSL\system.vhd
+# Example: systemDistro=C:\\Path\\To\\system.vhd
+systemDistro=C:\\Program Files\\WSL\\system.vhd
+
+# Starts WSL in safe (recovery) mode
+# Dependencies: None
+# Default: false
+# Values:
+# - true
+# - false
+safeMode=false
+
+# Shows a debug console with real-time dmesg output during entire WSL instances runtime
+# Dependencies:
+# - Ignored if debugConsoleLogFile is set
+# Default: false
+# Values:
+# - true
+# - false
+debugConsole=false
+
+# Enables logging from the early boot stages
+# Dependencies:
+# - Requires debugConsole=true or debugConsoleLogFile is set
+# Default: false
+# Values:
+# - true
+# - false
+earlyBootLogging=false
+
+# Absolute path to debug console log file
+# Dependencies: None
+# Default: Not set
+# Example: debugConsoleLogFile=C:\\Path\\To\\debug.log
+# debugConsoleLogFile=
+
+# Maximum number of crash dumps to retain
+# Dependencies: None
+# Default: 10
+# Values:
+# - -1: Disable crash dump collection
+# -  0: Behavior undocumented
+# -  Positive integer: Maximum number of dumps to keep
+maxCrashDumpCount=10
+
+# Absolute path to crash dumps folder
+# Dependencies:
+# - Requires wsl2.MaxCrashDumpCount > 0
+# Default: C:\Users\<UserName>\AppData\Local\Temp\wsl-crashes
+# Example: crashDumpFolder=C:\\Path\\To\\wsl-crashes
+# crashDumpFolder=
+
+# Enables telemetry collection
+# Dependencies: None
+# Default: true
+# Values:
+# - true
+# - false
+telemetry=true
+
+[experimental]
+
+# Defines memory reclaim strategy after detecting idle CPU inactivity
+# Dependencies: None
+# Default: gradual
+# Values:
+# - disabled: Disable memory reclaim
+# - gradual: Reclaim memory slowly
+# - dropcache: Immediately reclaim memory
+autoMemoryReclaim=gradual
+
+# Allows the virtual disk to shrink dynamically for newly VHD
+# Dependencies: None
+# Default: false
+# Values:
+# - true
+# - false
+sparseVhd=false
+
+# Improves DNS parsing compatibility
+# Dependencies:
+# - Requires wsl2.dnsProxy=true
+# - Requires wsl2.dnsTunneling=true
+# Default: false
+# Values:
+# - true
+# - false
+bestEffortDnsParsing=false
+
+# IP address used for DNS tunneling
+# Dependencies:
+# - Requires wsl2.networkingMode=nat or wsl2.networkingMode=mirrored
+# - Requires wsl2.dnsProxy=true
+# - Requires wsl2.dnsTunneling=true
+# Default: 10.255.255.254
+dnsTunnelingIpAddress=10.255.255.254
+
+# Timeout in milliseconds when reading Windows proxy settings
+# Dependencies:
+# - Requires wsl2.autoProxy=true
+# Default: 1000
+initialAutoProxyTimeout=1000
+
+# List of ports to ignore in mirrored networking mode
+# Dependencies:
+# - Requires wsl2.networkingMode=mirrored
+# Default: Not set
+# Example: ignoredPorts=3000,8080
+# ignoredPorts=
+
+# Allows host-to-container communication over loopback (127.0.0.1)
+# Dependencies:
+# - Requires wsl2.networkingMode=mirrored
+# Default: false
+# Values:
+# - true
+# - false
+hostAddressLoopback=false
