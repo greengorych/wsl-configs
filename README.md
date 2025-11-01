@@ -1,4 +1,4 @@
-# Windows Subsystem for Linux (WSL) — Configuration Templates
+# Configuration Templates for Windows Subsystem for Linux (WSL)
 
 ## Overview
 
