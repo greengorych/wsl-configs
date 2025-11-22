@@ -1,9 +1,4 @@
 {
-  "yaml.schemas": {
-    "https://raw.githubusercontent.com/canonical/cloud-init/main/cloudinit/config/schemas/versions.schema.cloud-config.json": [
-      "**/*.user-data"
-    ]
-  },
   "files.associations": {
     "*.meta-data": "yaml",
     "*.user-data": "yaml",
@@ -21,6 +16,9 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
+  "[shellscript]": {
+    "editor.tabSize": 4,
+  },
   "[markdown]": {
     "editor.wordWrap": "on"
   }
