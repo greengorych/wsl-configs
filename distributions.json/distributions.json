@@ -1,0 +1,60 @@
+{
+  "ModernDistributions": {
+    "Rocky Linux": [
+      {
+        "Name": "RockyLinux-10.1",
+        "FriendlyName": "Rocky Linux 10.1",
+        "Default": false,
+        "Amd64Url": {
+          "Url": "https://dl.rockylinux.org/pub/rocky/10/images/x86_64/Rocky-10-WSL-Base.latest.x86_64.wsl",
+          "Sha256": "5f3a688abfedbf6fc2ff22bfe7e144ed79e452979f09aa5daa493876341b752d"
+        },
+        "Arm64Url": {
+          "Url": "https://dl.rockylinux.org/pub/rocky/10/images/aarch64/Rocky-10-WSL-Base.latest.aarch64.wsl",
+          "Sha256": "fffc12bad612dbd352fe59eb0a18243f97d9992411cd15d42ee786d097f60276"
+        }
+      }
+    ],
+    "Ubuntu": [
+      {
+        "Name": "Ubuntu-25.04",
+        "FriendlyName": "Ubuntu 25.04",
+        "Default": false,
+        "Amd64Url": {
+          "Url": "https://releases.ubuntu.com/plucky/ubuntu-25.04-wsl-amd64.wsl",
+          "Sha256": "91f3e836698719846191821300bd21f321811abcef6f448bf8d7d8f8517b2743"
+        },
+        "Arm64Url": {
+          "Url": "https://cdimage.ubuntu.com/releases/25.04/release/ubuntu-25.04-wsl-arm64.wsl",
+          "Sha256": "dc849fb048c3a1ca70af48f5e8c24a64cef83f78d63051d9d65907874266ce7d"
+        }
+      },
+      {
+        "Name": "Ubuntu-25.10",
+        "FriendlyName": "Ubuntu 25.10",
+        "Default": false,
+        "Amd64Url": {
+          "Url": "https://releases.ubuntu.com/25.10/ubuntu-25.10-wsl-amd64.wsl",
+          "Sha256": "05299da14668ed5e1ddb49b92618725c5e6b55fca5bd163e314c227803af27e1"
+        },
+        "Arm64Url": {
+          "Url": "https://cdimage.ubuntu.com/releases/25.10/release/ubuntu-25.10-wsl-arm64.wsl",
+          "Sha256": "4f7105e4e8d903f6c5cc9ac21d9b8e43dbe766caabfba2db574a62ebe876dc21"
+        }
+      },
+      {
+        "Name": "Ubuntu-26.04",
+        "FriendlyName": "Ubuntu 26.04",
+        "Default": false,
+        "Amd64Url": {
+          "Url": "https://releases.ubuntu.com/26.04-snapshot1/ubuntu-26.04-wsl-amd64.wsl",
+          "Sha256": "c77c9e8a5b0255cd02f5edbcd612663976d995980107ce116b2b61f9244cce79"
+        },
+        "Arm64Url": {
+          "Url": "https://cdimage.ubuntu.com/releases/26.04/snapshot1/ubuntu-26.04-wsl-arm64.wsl",
+          "Sha256": "b5cfd80f3f90c4d7c95f680455eda660a1198515abbbe13080be70b274108d09"
+        }
+      }
+    ]
+  }
+}
