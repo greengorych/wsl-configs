@@ -240,6 +240,46 @@ loadDefaultKernelModules = true
 # - 1: Enable
 kernelDebugPort = 0
 
+# Controls access to the Windows disk file system
+# Dependencies: None
+# Default: true
+# Values:
+# - true
+# - false
+hostFileSystemAccess = true
+
+# Enables Virtio support for file system access
+# Dependencies:
+# - wsl2.hostFileSystemAccess = true
+# Default:
+# - true on x64 with any Windows, or ARM64 with Windows 11+
+# - false on ARM64 with Windows 10.
+# Values:
+# - true
+# - false
+virtio = true
+
+# Enables Virtio 9p support
+# Dependencies:
+# - wsl2.hostFileSystemAccess = true
+# Default: false
+# Values:
+# - true
+# - false
+virtio9p = false
+
+# Enables Virtio FS support
+# Dependencies:
+# - wsl2.hostFileSystemAccess = true
+# - wsl2.virtio = true
+# Default:
+# - true on x64 with any Windows, or ARM64 with Windows 11+
+# - false on ARM64 with Windows 10.
+# Values:
+# - true
+# - false
+virtiofs = false
+
 # Maximum time in milliseconds to wait for device mount operations
 # Dependencies:
 # - hostFileSystemAccess=true
