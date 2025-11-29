@@ -77,8 +77,8 @@ defaultVhdSize = 1TB
 
 # Size of the swap file used by WSL all instances
 # Dependencies:
-# - The default SWAP size is 25% of the total system RAM,
-# or 50% of the RAM specified by the wsl2.memory setting
+# - The default SWAP size is 25% of the total system RAM, or 50% of the RAM specified
+#   by the wsl2.memory setting
 # Default: 25% of the memory allocated to WSL
 # Values:
 # - 0: Disable swap entirely
@@ -112,8 +112,7 @@ networkingMode = NAT
 # Dependencies:
 # - Requires only when wsl2.networkingMode = Bridged
 # - Requires Hyper-V
-# - Requires a manually created external virtual switch
-#   connected to a physical network adapter
+# - Requires a manually created external virtual switch connected to a physical network adapter
 # Default: Default Switch (if not specified)
 # Example: vmSwitch = SwitchName
 # vmSwitch =
@@ -225,8 +224,7 @@ kernelBootTimeout = 30000
 
 # Enables loading of default Linux kernel modules: tun, ip_tables, br_netfilter
 # Dependencies:
-#  - If the kernel is compiled with modules,
-#    then can loadDefaultKernelModules = false
+#  - If the kernel is compiled with modules, then can loadDefaultKernelModules = false
 # Default: true
 # Values:
 # - true
@@ -253,7 +251,7 @@ hostFileSystemAccess = true
 # - wsl2.hostFileSystemAccess = true
 # Default:
 # - true on x64 with any Windows, or ARM64 with Windows 11+
-# - false on ARM64 with Windows 10.
+# - false on ARM64 with Windows 10
 # Values:
 # - true
 # - false
@@ -274,7 +272,7 @@ virtio9p = false
 # - wsl2.virtio = true
 # Default:
 # - true on x64 with any Windows, or ARM64 with Windows 11+
-# - false on ARM64 with Windows 10.
+# - false on ARM64 with Windows 10
 # Values:
 # - true
 # - false
@@ -282,7 +280,7 @@ virtiofs = false
 
 # Maximum time in milliseconds to wait for device mount operations
 # Dependencies:
-# - hostFileSystemAccess=true
+# - hostFileSystemAccess = true
 # Default: 5000 (5 seconds)
 mountDeviceTimeout = 5000
 
