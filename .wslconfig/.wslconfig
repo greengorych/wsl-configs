@@ -250,7 +250,7 @@ hostFileSystemAccess = true
 # Dependencies:
 # - wsl2.hostFileSystemAccess = true
 # Default:
-# - true on x64 with any Windows, or ARM64 with Windows 11+
+# - true on AMD64 with any Windows, or ARM64 with Windows 11+
 # - false on ARM64 with Windows 10
 # Values:
 # - true
@@ -271,7 +271,7 @@ virtio9p = false
 # - wsl2.hostFileSystemAccess = true
 # - wsl2.virtio = true
 # Default:
-# - true on x64 with any Windows, or ARM64 with Windows 11+
+# - true on AMD64 with any Windows, or ARM64 with Windows 11+
 # - false on ARM64 with Windows 10
 # Values:
 # - true
@@ -357,7 +357,7 @@ telemetry = true
 
 # Makes hardware performance counters available in WSL instances
 # Dependencies:
-# - Supported only on AMD64/x64
+# - Supported only on AMD64
 # - Not available on ARM64
 # Default:
 # - true on AMD64
