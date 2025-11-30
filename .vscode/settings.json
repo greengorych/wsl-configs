@@ -16,10 +16,10 @@
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "[shellscript]": {
-    "editor.tabSize": 4,
-  },
   "[markdown]": {
     "editor.wordWrap": "on"
+  },
+  "[shellscript]": {
+    "editor.tabSize": 4
   }
 }
