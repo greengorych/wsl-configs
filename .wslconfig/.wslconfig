@@ -96,8 +96,7 @@ defaultVhdSize = 1TB
 # Type of network mode used by WSL
 # Dependencies:
 # - Bridged mode requires Hyper-V to be installed
-# - Bridged mode requires a manually created external
-#   virtual switch connected to a physical network adapter
+# - Bridged mode requires a manually created external virtual switch connected to a physical network adapter
 # - Other modes (NAT, Mirrored, VirtioProxy) do not require Hyper-V or external switches
 # Default: NAT
 # Values:
