@@ -55,7 +55,7 @@
       },
       {
         "Name": "Ubuntu-26.04",
-        "FriendlyName": "Ubuntu 26.04",
+        "FriendlyName": "Ubuntu 26.04 Snaphot 1",
         "Default": false,
         "Amd64Url": {
           "Url": "https://releases.ubuntu.com/26.04-snapshot1/ubuntu-26.04-wsl-amd64.wsl",
