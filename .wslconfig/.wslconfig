@@ -121,7 +121,7 @@ networkingMode = NAT
 # - Requires wsl2.networkingMode = bridged
 # Default: Persistent MAC address automatically assigned
 # Example: macAddress = 00:15:5D:00:01:02
-# macAddress=
+# macAddress =
 
 # DHCP setting for the network adapter
 # Dependencies:
