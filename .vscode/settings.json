@@ -11,6 +11,9 @@
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
+  "editor.rulers": [
+    74
+  ],
   "editor.tabSize": 2,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
