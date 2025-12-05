@@ -6,7 +6,7 @@
 # Absolute Windows path to the WSL distributions install folder
 # Dependencies: None
 # Default: C:\Users\<UserName>\AppData\Local\wsl
-# Example: distributionInstallPath = C:\\Path\\To\\wsl\\Distribution\Install\\Folder
+# Example: distributionInstallPath = C:\\Path\\To\\wsl\\Distro\Install\\Folder
 # distributionInstallPath =
 
 # Duration the WSL instances remains running after going idle
@@ -38,11 +38,11 @@ distributionStartTimeout = 60000
 
 # Allows support nested virtualization
 # Dependencies:
-# - Supported only on AMD64 with Windows 11+
-# - Doesn't work on ARM64, or on any architecture with Windows <11
+# - Supported only on amd64 with Windows 11+
+# - Doesn't work on arm64, or on any architecture with Windows <11
 # Default:
-# - true on AMD64 with Windows 11+
-# - false on ARM64, or on any architecture with Windows <11
+# - true on amd64 with Windows 11+
+# - false on arm64, or on any architecture with Windows <11
 # Values:
 # - true
 # - false
@@ -223,7 +223,7 @@ kernelBootTimeout = 30000
 
 # Enables loading of default Linux kernel modules: tun, ip_tables, br_netfilter
 # Dependencies:
-#  - If the kernel is compiled with modules, then can loadDefaultKernelModules = false
+# - If the kernel is compiled with modules, then can loadDefaultKernelModules = false
 # Default: true
 # Values:
 # - true
@@ -249,8 +249,8 @@ hostFileSystemAccess = true
 # Dependencies:
 # - wsl2.hostFileSystemAccess = true
 # Default:
-# - true on AMD64 with any Windows, or ARM64 with Windows 11+
-# - false on ARM64 with Windows 10
+# - true on amd64 with any Windows, or arm64 with Windows 11+
+# - false on arm64 with Windows 10
 # Values:
 # - true
 # - false
@@ -270,8 +270,8 @@ virtio9p = false
 # - wsl2.hostFileSystemAccess = true
 # - wsl2.virtio = true
 # Default:
-# - true on AMD64 with any Windows, or ARM64 with Windows 11+
-# - false on ARM64 with Windows 10
+# - true on amd64 with any Windows, or arm64 with Windows 11+
+# - false on arm64 with Windows 10
 # Values:
 # - true
 # - false
@@ -356,11 +356,11 @@ telemetry = true
 
 # Makes hardware performance counters available in WSL instances
 # Dependencies:
-# - Supported only on AMD64
-# - Not available on ARM64
+# - Supported only on amd64
+# - Not available on arm64
 # Default:
-# - true on AMD64
-# - false on ARM64
+# - true on amd64
+# - false on arm64
 # Values:
 # - true
 # - false
