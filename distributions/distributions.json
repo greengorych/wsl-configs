@@ -13,6 +13,19 @@
     ],
     "Rocky Linux": [
       {
+        "Name": "RockyLinux-9.7",
+        "FriendlyName": "Rocky Linux 9.7",
+        "Default": false,
+        "Amd64Url": {
+          "Url": "https://dl.rockylinux.org/pub/rocky/9/images/x86_64/Rocky-9-WSL-Base.latest.x86_64.wsl",
+          "Sha256": "d2db978248aaf771b30e9b8966883b121d7a511081089f233c8444d2c5612380"
+        },
+        "Arm64Url": {
+          "Url": "https://dl.rockylinux.org/pub/rocky/9/images/aarch64/Rocky-9-WSL-Base.latest.aarch64.wsl",
+          "Sha256": "8f9c1aa59f68687a93562cbcdf45f6d588a11693e44f9e9213a0ae4d1f8d868f"
+        }
+      },
+      {
         "Name": "RockyLinux-10.1",
         "FriendlyName": "Rocky Linux 10.1",
         "Default": false,
