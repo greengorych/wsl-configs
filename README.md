@@ -17,9 +17,8 @@ A curated collection of configuration files for Windows Subsystem for Linux (WSL
 - [**distributions.json**](https://github.com/greengorych/wsl-configs/blob/main/distributions/distributions.json) - a ready-to-use manifest with additional WSL distributions.
 
 > [!NOTE]
-> More detailed information about the configurations and their usage is available in the [Reference][reference] section of the [greengorych.io][greengorych.io] site.
+> More detailed information about Windows Subsystem for Linux, its configuration, and usage is available in the Blog and in the Reference section of the [greengorych.io][greengorych.io] site.
 
-[reference]: https://greengorych.io/reference/
 [greengorych.io]: https://greengorych.io/
 
 ## Contributing
