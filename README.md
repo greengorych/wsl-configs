@@ -12,12 +12,15 @@ A curated collection of configuration files for Windows Subsystem for Linux (WSL
 - [**wsl.conf**](https://github.com/greengorych/wsl-configs/tree/main/wsl.conf/wsl.conf) - a fully documented per-instance configuration file used by both WSL 1 and WSL 2 instances.
 - [**wsl-distribution.conf**](https://github.com/greengorych/wsl-configs/tree/main/wsl-distribution.conf/wsl-distribution.conf) - a fully documented per-distribution configuration file.
 
-> [!NOTE]
-> These files include all known parameters, their possible values, dependencies, and default settings.
-
 ### Additional Configurations
 
-- [**distributions.json**](https://github.com/greengorych/wsl-configs/blob/main/distributions/distributions.json) - a ready-to-use manifest for additional WSL distributions.
+- [**distributions.json**](https://github.com/greengorych/wsl-configs/blob/main/distributions/distributions.json) - a ready-to-use manifest with additional WSL distributions.
+
+> [!NOTE]
+> More detailed information about the configurations and their usage is available in the [Reference][reference] section of the [greengorych.io][greengorych.io] site.
+
+[reference]: https://greengorych.io/reference/
+[greengorych.io]: https://greengorych.io/
 
 ## Contributing
 
