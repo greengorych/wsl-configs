@@ -14,8 +14,8 @@
 # Default: 15000 (15 seconds)
 # Values:
 # - -1: Never shut down the instance automatically
-# -  0: Shut down immediately after all processes exit
-# -  Positive integer: Shut down after the specified idle time (in milliseconds)
+# - 0: Shut down immediately after all processes exit
+# - Positive integer: Shut down after the specified idle time (in milliseconds)
 instanceIdleTimeout = 15000
 
 [wsl2]
@@ -25,8 +25,8 @@ instanceIdleTimeout = 15000
 # Default: 60000 (60 seconds)
 # Values:
 # - -1: Never shut down automatically
-# -  0: Shut down immediately after all WSL instances have exited
-# -  Positive integer: Shut down after the specified idle time (in milliseconds)
+# - 0: Shut down immediately after all WSL instances have exited
+# - Positive integer: Shut down after the specified idle time (in milliseconds)
 vmIdleTimeout = 60000
 
 # Maximum time WSL waits for a distribution to start before failing
@@ -77,8 +77,7 @@ defaultVhdSize = 1TB
 
 # Size of the swap file used by WSL all instances
 # Dependencies:
-# - The default SWAP size is 25% of the total system RAM, or 50% of the RAM specified
-#   by the wsl2.memory setting
+# - The default SWAP size is 25% of the total system RAM, or 50% of the RAM specified by the wsl2.memory setting
 # Default: 25% of the memory allocated to WSL
 # Values:
 # - 0: Disable swap entirely
@@ -90,7 +89,7 @@ defaultVhdSize = 1TB
 # - Ignored if wsl2.swap=0
 # Notes:
 # - Use `wslinfo --vm-id` to get the <WSL VM ID>
-# Default: %USERPROFILE%\AppData\Local\Temp\<WSL VM ID>\swap.vhdx
+# Default: C:\Users\<UserName>\AppData\Local\Temp\<WSL VM ID>\swap.vhdx
 # swapFile =
 
 # Type of network mode used by WSL
@@ -212,7 +211,7 @@ kernelBootTimeout = 30000
 # Absolute Windows path to a VHD containing kernel modules
 # Dependencies: None
 # Default: Not set
-# Example: kernelModules = C:\\Path\\To\\Modules.vhdx
+# Example: kernelModules = C:\\Path\\To\\KernelModules.vhdx
 # kernelModules =
 
 # List of Linux kernel modules being loaded
