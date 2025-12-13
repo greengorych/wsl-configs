@@ -17,7 +17,7 @@
       {
         "Name": "CentOS-Stream-10",
         "FriendlyName": "CentOS Stream 10",
-        "Default": false,
+        "Default": true,
         "Amd64Url": {
           "Url": "https://mirror.stream.centos.org/SIGs/10-stream/altimages/images/wsl/x86_64/CentOS-Stream-Image-WSL-Base.x86_64-10-202510080808.wsl",
           "Sha256": "fa268e3f8246dc6412da676d27bed80c9dd34a041122e68a442f6262d0f37941"
@@ -32,7 +32,7 @@
       {
         "Name": "NixOS-25.05",
         "FriendlyName": "NixOS 25.05",
-        "Default": false,
+        "Default": true,
         "Amd64Url": {
           "Url": "https://github.com/nix-community/NixOS-WSL/releases/download/2505.7.0/nixos.wsl",
           "Sha256": "b9db52dc217e7852f715a4693d604da91591158b2da884d67a637cb70d63b1e1"
@@ -56,7 +56,7 @@
       {
         "Name": "RockyLinux-10.1",
         "FriendlyName": "Rocky Linux 10.1",
-        "Default": false,
+        "Default": true,
         "Amd64Url": {
           "Url": "https://dl.rockylinux.org/pub/rocky/10/images/x86_64/Rocky-10-WSL-Base.latest.x86_64.wsl",
           "Sha256": "5f3a688abfedbf6fc2ff22bfe7e144ed79e452979f09aa5daa493876341b752d"
