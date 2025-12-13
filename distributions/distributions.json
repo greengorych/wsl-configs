@@ -1,6 +1,6 @@
 {
   "ModernDistributions": {
-    "CentOS Stream": [
+    "CentOS": [
       {
         "Name": "CentOS-Stream-9",
         "FriendlyName": "CentOS Stream 9",
@@ -39,7 +39,7 @@
         }
       }
     ],
-    "Rocky Linux": [
+    "Rocky": [
       {
         "Name": "RockyLinux-9.7",
         "FriendlyName": "Rocky Linux 9.7",
