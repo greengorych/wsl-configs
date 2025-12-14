@@ -203,7 +203,7 @@ kernel = C:\\Program Files\\WSL\\tools\\kernel
 # Example: kernelCommandLine = quiet splash
 # kernelCommandLine =
 
-# Maximum time to wait for the Linux kernel to boot
+# Maximum time (in milliseconds) to wait for the Linux kernel to boot
 # Dependencies: None
 # Default: 30000 (30 seconds)
 kernelBootTimeout = 30000
