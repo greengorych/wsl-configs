@@ -208,11 +208,12 @@ kernel = C:\\Program Files\\WSL\\tools\\kernel
 # Default: 30000 (30 seconds)
 kernelBootTimeout = 30000
 
-# Absolute Windows path to a VHD containing kernel modules
-# Dependencies: None
-# Default: Not set
+# Absolute Windows path to a VHD/VHDX containing kernel modules
+# Dependencies:
+# - The kernel module versions must match the kernel version specified in wsl2.kernel
+# Default: C:\\Program Files\\WSL\\tools\\modules.vhd
 # Example: kernelModules = C:\\Path\\To\\KernelModules.vhdx
-# kernelModules =
+kernelModules = C:\\Program Files\\WSL\\tools\\modules.vhd
 
 # List of Linux kernel modules being loaded
 # Dependencies: None
