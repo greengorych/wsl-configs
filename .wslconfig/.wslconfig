@@ -223,7 +223,10 @@ kernelModules = C:\\Program Files\\WSL\\tools\\modules.vhd
 
 # Enables loading of default Linux kernel modules: tun, ip_tables, br_netfilter
 # Dependencies:
-# - If the kernel is compiled with modules, then can loadDefaultKernelModules = false
+# - kernel = C:\\Program Files\\WSL\\tools\\kernel
+# - kernelModules = C:\\Program Files\\WSL\\tools\\modules.vhd
+# - Applicable only if the kernel is built with module support
+# - Has no effect if modules are built into the kernel, and can be set to false
 # Default: true
 # Values:
 # - true
