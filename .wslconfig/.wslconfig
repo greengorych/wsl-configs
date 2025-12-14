@@ -215,12 +215,6 @@ kernelBootTimeout = 30000
 # Example: kernelModules = C:\\Path\\To\\KernelModules.vhdx
 kernelModules = C:\\Program Files\\WSL\\tools\\modules.vhd
 
-# List of Linux kernel modules being loaded
-# Dependencies: None
-# Default: Not set
-# Example: loadKernelModules = dummy
-# loadKernelModules =
-
 # Enables loading of default Linux kernel modules: tun, ip_tables, br_netfilter
 # Dependencies:
 # - kernel = C:\\Program Files\\WSL\\tools\\kernel
@@ -232,6 +226,12 @@ kernelModules = C:\\Program Files\\WSL\\tools\\modules.vhd
 # - true
 # - false
 loadDefaultKernelModules = true
+
+# List of additional Linux kernel modules to load during boot
+# Dependencies: None
+# Default: Not set
+# Example: loadKernelModules = dummy
+# loadKernelModules =
 
 # Enables kernel debug port
 # Dependencies: None
