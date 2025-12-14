@@ -191,11 +191,11 @@ firewall = true
 # - false
 autoProxy = true
 
-# Absolute Windows path to a custom Linux kernel
+# Absolute Windows path to a Linux kernel
 # Dependencies: None
-# Default: Built-in Microsoft kernel
+# Default: C:\\Program Files\\WSL\\tools\\kernel
 # Example: kernel = C:\\Path\\To\\CustomKernel
-# kernel =
+kernel = C:\\Program Files\\WSL\\tools\\kernel
 
 # Additional parameters to pass to the Linux kernel during boot
 # Dependencies: None
