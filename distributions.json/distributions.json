@@ -1,0 +1,19 @@
+{
+  "ModernDistributions": {
+    "<Distribution Family Name>": [
+      {
+        "Name": "<Distribution Name>",
+        "FriendlyName": "<Distribution Friendly Name>",
+        "Default": true | false,
+        "Amd64Url": {
+          "Url": "<Distribution URL>",
+          "Sha256": "<Distribution Hash>"
+        },
+        "Arm64Url": {
+          "Url": "<Distribution URL>",
+          "Sha256": "<Distribution Hash>"
+        }
+      }
+    ]
+  }
+}
