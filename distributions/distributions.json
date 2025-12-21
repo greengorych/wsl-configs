@@ -1,5 +1,20 @@
 {
   "ModernDistributions": {
+    "Alpine": [
+      {
+        "Name": "Alpine-3.23.2",
+        "FriendlyName": "Alpine 3.23.2",
+        "Default": true,
+        "Amd64Url": {
+          "Url": "https://github.com/greengorych/alpine-wsl/releases/download/3.23.2-2/alpine-3.23.2-2-x86_64.wsl",
+          "Sha256": "d6ae7e918ca9cb9a8bfa60ca6aa7df79061ac19d8e4623df9ead6e5a4d527a81"
+        },
+        "Arm64Url": {
+          "Url": "https://github.com/greengorych/alpine-wsl/releases/download/3.23.2-2/alpine-3.23.2-2-aarch64.wsl",
+          "Sha256": "af7e809eadd5273c143da792638098e1320b9bff9581c45829574449ea47d76b"
+        }
+      }
+    ],
     "CentOS": [
       {
         "Name": "CentOS-Stream-9",
