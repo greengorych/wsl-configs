@@ -6,7 +6,7 @@
     ".wslconfig": "ini",
     ".wslgconfig": "ini",
     "wsl.conf": "ini",
-    "wsl-distribution.conf": "ini",
+    "wsl-distribution.conf": "ini"
   },
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
