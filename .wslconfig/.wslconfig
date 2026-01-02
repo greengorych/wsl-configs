@@ -6,7 +6,7 @@
 # Absolute Windows path to the WSL distributions install folder
 # Dependencies: None
 # Default: C:\Users\<UserName>\AppData\Local\wsl
-# Example: distributionInstallPath = C:\\Path\\To\\wsl\\Distro\Install\\Folder
+# Example: distributionInstallPath = C:\\Path\\To\\wsl\\Distro\\Install\\Folder
 # distributionInstallPath =
 
 # Duration the WSL instances remains running after going idle
