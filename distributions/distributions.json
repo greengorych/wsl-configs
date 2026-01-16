@@ -84,19 +84,6 @@
     ],
     "Ubuntu": [
       {
-        "Name": "Ubuntu-25.04",
-        "FriendlyName": "Ubuntu 25.04",
-        "Default": false,
-        "Amd64Url": {
-          "Url": "https://releases.ubuntu.com/plucky/ubuntu-25.04-wsl-amd64.wsl",
-          "Sha256": "91f3e836698719846191821300bd21f321811abcef6f448bf8d7d8f8517b2743"
-        },
-        "Arm64Url": {
-          "Url": "https://cdimage.ubuntu.com/releases/25.04/release/ubuntu-25.04-wsl-arm64.wsl",
-          "Sha256": "dc849fb048c3a1ca70af48f5e8c24a64cef83f78d63051d9d65907874266ce7d"
-        }
-      },
-      {
         "Name": "Ubuntu-25.10",
         "FriendlyName": "Ubuntu 25.10",
         "Default": false,
