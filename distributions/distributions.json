@@ -6,12 +6,12 @@
         "FriendlyName": "Alpine 3.23.2-5",
         "Default": true,
         "Amd64Url": {
-          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.2-5/alpine-3.23.2-5-x86_64.wsl",
-          "Sha256": "dbe2292f2077b5eaefd0cd281959841e74b500ecfceb68e377dbf529b0e20b5a"
+          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.3-1/alpine-3.23.3-1-x86_64.wsl",
+          "Sha256": "867f816c72200bd34ac8001f8e9422b4437fb6a2f7272a9aad4cf54814c2e953"
         },
         "Arm64Url": {
-          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.2-5/alpine-3.23.2-5-aarch64.wsl",
-          "Sha256": "7a05071856ea0d1deda48d7ec5e80c7a8882bf4d5bb83805ec4d964b35517fac"
+          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.3-1/alpine-3.23.3-1-aarch64.wsl",
+          "Sha256": "9061997da4a6ffeeb1df4c4492fc10e2c93ff475c720fd59d2c20bd5825315c1"
         }
       }
     ],
