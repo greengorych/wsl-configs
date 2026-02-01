@@ -2,8 +2,8 @@
   "ModernDistributions": {
     "Alpine": [
       {
-        "Name": "Alpine-3.23.2-5",
-        "FriendlyName": "Alpine 3.23.2-5",
+        "Name": "Alpine-3.23.3-1",
+        "FriendlyName": "Alpine 3.23.3-1",
         "Default": true,
         "Amd64Url": {
           "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.3-1/alpine-3.23.3-1-x86_64.wsl",
