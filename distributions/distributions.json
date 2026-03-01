@@ -98,15 +98,15 @@
       },
       {
         "Name": "Ubuntu-26.04",
-        "FriendlyName": "Ubuntu 26.04 Snapshot 3",
+        "FriendlyName": "Ubuntu 26.04 Snapshot 4",
         "Default": false,
         "Amd64Url": {
-          "Url": "https://cdimage.ubuntu.com/releases/26.04/snapshot-3/ubuntu-26.04-snapshot3-wsl-amd64.wsl",
-          "Sha256": "9ea37aaaefe12d1a8c85402f40fb2346d33d1cc6815cb3648296a78dd598f773"
+          "Url": "https://cdimage.ubuntu.com/releases/26.04/snapshot-4/ubuntu-26.04-snapshot4-wsl-amd64.wsl",
+          "Sha256": "ef4b234804fb9d5bf1afdaf7b71bcde4f0be26384d0a641697e88292c50d12c7"
         },
         "Arm64Url": {
-          "Url": "https://cdimage.ubuntu.com/releases/26.04/snapshot-3/ubuntu-26.04-snapshot3-wsl-arm64.wsl",
-          "Sha256": "379f30d9fb4de1d13cab17c4a376bdac5146d92716a388da5e505185a09a85c8"
+          "Url": "https://cdimage.ubuntu.com/releases/26.04/snapshot-4/ubuntu-26.04-snapshot4-wsl-arm64.wsl",
+          "Sha256": "9faff9453d56b9b3e8c4157b66f3f8a475016613bf0829c517f3253644bd4cb3"
         }
       }
     ]
