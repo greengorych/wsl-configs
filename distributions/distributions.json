@@ -45,12 +45,12 @@
     ],
     "NixOS": [
       {
-        "Name": "NixOS-25.05",
-        "FriendlyName": "NixOS 25.05",
+        "Name": "NixOS-25.11",
+        "FriendlyName": "NixOS 25.11",
         "Default": true,
         "Amd64Url": {
-          "Url": "https://github.com/nix-community/NixOS-WSL/releases/download/2505.7.0/nixos.wsl",
-          "Sha256": "b9db52dc217e7852f715a4693d604da91591158b2da884d67a637cb70d63b1e1"
+          "Url": "https://github.com/nix-community/NixOS-WSL/releases/download/2511.7.1/nixos.wsl",
+          "Sha256": "d73e9e776c4332748ad25a71fbbdf6f8bc02b3ccf52b6edaaf21444c39f448b5"
         }
       }
     ],
