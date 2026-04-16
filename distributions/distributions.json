@@ -2,16 +2,16 @@
   "ModernDistributions": {
     "Alpine": [
       {
-        "Name": "Alpine-3.23.3-1",
-        "FriendlyName": "Alpine 3.23.3-1",
+        "Name": "Alpine-3.23.4-1",
+        "FriendlyName": "Alpine 3.23.4-1",
         "Default": true,
         "Amd64Url": {
-          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.3-1/alpine-3.23.3-1-x86_64.wsl",
-          "Sha256": "867f816c72200bd34ac8001f8e9422b4437fb6a2f7272a9aad4cf54814c2e953"
+          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.3-1/alpine-3.23.4-1-x86_64.wsl",
+          "Sha256": "9e36f209d40b2bba602c2518d2bece1157dcc48744cda94112a96051012aff6c"
         },
         "Arm64Url": {
-          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.3-1/alpine-3.23.3-1-aarch64.wsl",
-          "Sha256": "9061997da4a6ffeeb1df4c4492fc10e2c93ff475c720fd59d2c20bd5825315c1"
+          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.4-1/alpine-3.23.4-1-aarch64.wsl",
+          "Sha256": "f89863b5a4819b07ee034edac1120e95fb00fc45953bab7bbf9e849320d6cfcd"
         }
       }
     ],
