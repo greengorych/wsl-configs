@@ -101,12 +101,12 @@
         "FriendlyName": "Ubuntu 26.04 Snapshot 4",
         "Default": false,
         "Amd64Url": {
-          "Url": "https://cdimage.ubuntu.com/releases/26.04/snapshot-4/ubuntu-26.04-snapshot4-wsl-amd64.wsl",
-          "Sha256": "ef4b234804fb9d5bf1afdaf7b71bcde4f0be26384d0a641697e88292c50d12c7"
+          "Url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-beta-wsl-amd64.wsl",
+          "Sha256": "2f0b58a8d633263c5f801d3b122a8e4e2054e67648ebde9510dc516d1d3aa74e"
         },
         "Arm64Url": {
-          "Url": "https://cdimage.ubuntu.com/releases/26.04/snapshot-4/ubuntu-26.04-snapshot4-wsl-arm64.wsl",
-          "Sha256": "9faff9453d56b9b3e8c4157b66f3f8a475016613bf0829c517f3253644bd4cb3"
+          "Url": "https://cdimage.ubuntu.com/releases/26.04/beta/ubuntu-26.04-beta-wsl-arm64.wsl",
+          "Sha256": "6b0d0aea83d6d121e42b743632ec3196e12d94eb17fe0d2e50b61ee961dca8b9"
         }
       }
     ]
