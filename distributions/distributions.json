@@ -98,7 +98,7 @@
       },
       {
         "Name": "Ubuntu-26.04",
-        "FriendlyName": "Ubuntu 26.04 Snapshot 4",
+        "FriendlyName": "Ubuntu 26.04 Beta",
         "Default": false,
         "Amd64Url": {
           "Url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-beta-wsl-amd64.wsl",
