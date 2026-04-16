@@ -21,12 +21,12 @@
         "FriendlyName": "CentOS Stream 9",
         "Default": false,
         "Amd64Url": {
-          "Url": "https://mirror.stream.centos.org/SIGs/9-stream/altimages/images/wsl/x86_64/CentOS-Stream-Image-WSL-Base.x86_64-9-202601110111.wsl",
-          "Sha256": "06443763f6b96c0884c339376b512a06eacb8e822b8f934a23004ba0c93be817"
+          "Url": "https://mirror.stream.centos.org/SIGs/9-stream/altimages/images/wsl/x86_64/CentOS-Stream-Image-WSL-Base.x86_64-9-202604020202.wsl",
+          "Sha256": "4c44bcf8d5df498947e214f0d26cac6f3c6f570828138cff77f9b39a04258fde"
         },
         "Arm64Url": {
-          "Url": "https://mirror.stream.centos.org/SIGs/9-stream/altimages/images/wsl/aarch64/CentOS-Stream-Image-WSL-Base.aarch64-9-202601110111.wsl",
-          "Sha256": "521b0098f5a5747870da687a2647fc4c6de4aa35ca3e948e61c1267835dfb512"
+          "Url": "https://mirror.stream.centos.org/SIGs/9-stream/altimages/images/wsl/aarch64/CentOS-Stream-Image-WSL-Base.aarch64-9-202604020202.wsl",
+          "Sha256": "8acce836e476d1a535d0a1c7bf40977dc7348e7f241af8288bc056d83321d362"
         }
       },
       {
@@ -34,12 +34,12 @@
         "FriendlyName": "CentOS Stream 10",
         "Default": true,
         "Amd64Url": {
-          "Url": "https://mirror.stream.centos.org/SIGs/10-stream/altimages/images/wsl/x86_64/CentOS-Stream-Image-WSL-Base.x86_64-10-202601110111.wsl",
-          "Sha256": "40c8e5899b1424d47b9f1d4091b291c697e4ea36c1fddc8a26460acefcdd4535"
+          "Url": "https://mirror.stream.centos.org/SIGs/10-stream/altimages/images/wsl/x86_64/CentOS-Stream-Image-WSL-Base.x86_64-10-202604020202.wsl",
+          "Sha256": "60274b315c8309835575ae0c1b6a1cc7a088d14b4ba08a139ec627b6b2474bd7"
         },
         "Arm64Url": {
-          "Url": "https://mirror.stream.centos.org/SIGs/10-stream/altimages/images/wsl/aarch64/CentOS-Stream-Image-WSL-Base.aarch64-10-202601110111.wsl",
-          "Sha256": "10cde34eeaeae4e5b1739ffba420cb9a153da54d65c670e8af0dc63e1b9d196f"
+          "Url": "https://mirror.stream.centos.org/SIGs/10-stream/altimages/images/wsl/aarch64/CentOS-Stream-Image-WSL-Base.aarch64-10-202604020202.wsl",
+          "Sha256": "7ae42b812dc1db99ab9175fd2e116ecd31474f0b664174d88813ec8848843307"
         }
       }
     ],
