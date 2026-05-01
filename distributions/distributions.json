@@ -98,15 +98,15 @@
       },
       {
         "Name": "Ubuntu-26.04",
-        "FriendlyName": "Ubuntu 26.04 Beta",
+        "FriendlyName": "Ubuntu 26.04 LTS",
         "Default": false,
         "Amd64Url": {
-          "Url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-beta-wsl-amd64.wsl",
-          "Sha256": "2f0b58a8d633263c5f801d3b122a8e4e2054e67648ebde9510dc516d1d3aa74e"
+          "Url": "https://releases.ubuntu.com/26.04/ubuntu-26.04-wsl-amd64.wsl",
+          "Sha256": "96c7f5fb28a7fe28245331f9bfbe4375f18dd29a4850116ad3c4f60f6700c55c"
         },
         "Arm64Url": {
-          "Url": "https://cdimage.ubuntu.com/releases/26.04/beta/ubuntu-26.04-beta-wsl-arm64.wsl",
-          "Sha256": "6b0d0aea83d6d121e42b743632ec3196e12d94eb17fe0d2e50b61ee961dca8b9"
+          "Url": "https://cdimage.ubuntu.com/releases/26.04/release/ubuntu-26.04-wsl-arm64.wsl",
+          "Sha256": "9fae7b65ac7be0ebb019987c922f1f1f1aaffb061834eb22e76a5e2a958dd3f6"
         }
       }
     ]
