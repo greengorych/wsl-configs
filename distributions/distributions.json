@@ -6,7 +6,7 @@
         "FriendlyName": "Alpine 3.23.4-1",
         "Default": true,
         "Amd64Url": {
-          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.3-1/alpine-3.23.4-1-x86_64.wsl",
+          "Url": "https://github.com/greengorych/alpine-for-wsl/releases/download/3.23.4-1/alpine-3.23.4-1-x86_64.wsl",
           "Sha256": "9e36f209d40b2bba602c2518d2bece1157dcc48744cda94112a96051012aff6c"
         },
         "Arm64Url": {
